@@ -23,11 +23,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\Desktop\grass-1.jpg" />
-    <Image Include="..\..\..\..\Desktop\stone.jpg">
+    <Image Include="..\..\..\..\Desktop\dirt.jpg">
       <Filter>Файлы ресурсов</Filter>
     </Image>
-    <Image Include="..\..\..\..\Desktop\dirt.jpg">
+    <Image Include="M:\фото\GTA VI\какай-не понятная папка. Я снова рабочий стол засрал и кину всё в нееё\grass-1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="M:\фото\GTA VI\какай-не понятная папка. Я снова рабочий стол засрал и кину всё в нееё\ground.png">
       <Filter>Файлы ресурсов</Filter>
     </Image>
   </ItemGroup>

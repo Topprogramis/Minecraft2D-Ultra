@@ -142,12 +142,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main.cpp">
+      <DeploymentContent>true</DeploymentContent>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\Desktop\dirt.jpg" />
-    <Image Include="..\..\..\..\Desktop\grass-1.jpg" />
-    <Image Include="..\..\..\..\Desktop\stone.jpg" />
+    <Image Include="M:\фото\GTA VI\какай-не понятная папка. Я снова рабочий стол засрал и кину всё в нееё\grass-1.jpg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="M:\фото\GTA VI\какай-не понятная папка. Я снова рабочий стол засрал и кину всё в нееё\ground.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
